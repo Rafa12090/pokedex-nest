@@ -71,3 +71,25 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+# Ejecutar en desarrollo
+
+1. Clonar el repositorio
+2. Instalar dependencias
+3. Ejecutar
+
+```yarn install```
+
+```yarn run start:dev```
+
+4. Tener Nest Cli instalado
+
+```yarn global add @nestjs/cli```
+
+5. Levantar la base de datos
+
+```docker-compose up -d```
+
+## Stack usado
+* NestJS
+* MongoDB
