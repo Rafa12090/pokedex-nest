@@ -90,6 +90,10 @@ Nest is [MIT licensed](LICENSE).
 
 ```docker-compose up -d```
 
+6. Reconstruir la base de datos con la semilla
+
+```http://localhost:3000/api/v2/seed```
+
 ## Stack usado
 * NestJS
 * MongoDB
