@@ -90,9 +90,17 @@ Nest is [MIT licensed](LICENSE).
 
 ```docker-compose up -d```
 
-6. Reconstruir la base de datos con la semilla
+6. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
+   
+7. Configurar las variables de entorno definidas en el archivo ```.env```
+8. Ejecutar la aplicación
+
+```yarn run start:dev```
+
+9. Reconstruir la base de datos con la semilla
 
 ```http://localhost:3000/api/v2/seed```
+
 
 ## Stack usado
 * NestJS
